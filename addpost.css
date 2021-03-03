@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(img/bg.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.backbtn {
+  font-size: 6rem !important;
+  position: fixed;
+  top: 3%;
+  left: 3%;
+  color: #2A265F;
+}
+
+.backbtn:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.form-container {
+  border-radius: 20px;
+  background-color: white;
+  width: 50%;
+  min-width: 400px;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+.form-container textarea {
+  resize: none;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 2rem;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px #2A265F solid;
+  color: #2A265F;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+}
+
+.form-container textarea ::-webkit-input-placeholder {
+  color: #2A265F;
+}
+
+.form-container textarea :-ms-input-placeholder {
+  color: #2A265F;
+}
+
+.form-container textarea ::-ms-input-placeholder {
+  color: #2A265F;
+}
+
+.form-container textarea ::placeholder {
+  color: #2A265F;
+}
+
+.form-container button {
+  text-align: center;
+  background-color: #2A265F;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  margin-bottom: 4rem;
+  font-size: 3rem;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3rem;
+}
+
+.form-container button:hover {
+  cursor: pointer;
+  background-color: #383561;
+}
+
+@media (max-width: 1000px) {
+  .form-container {
+    width: 75%;
+  }
+}
+
+.form-container input {
+  display: block;
+}
+
+.heading {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  display: block;
+  padding: 1rem;
+  font-size: 3rem;
+  text-align: center;
+  width: 100%;
+  background-color: #2A265F;
+  color: white;
+}
+
+.topic {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  font-size: 3rem;
+  color: #2A265F;
+  background-color: white;
+  text-align: center;
+  border: 2px #2A265F solid;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+/*# sourceMappingURL=addpost.css.map */

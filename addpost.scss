@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    
+    background-image: url(img/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.backbtn{
+	font-size: 6rem !important;
+	position: fixed;
+	top: 3%; 
+	left: 3%;
+
+	color: #2A265F;
+	&:hover{
+		cursor: pointer;
+		transform: scale(1.05);
+	}
+}
+
+.form-container{
+
+    textarea{
+        resize: none;
+        width: 80%;
+        margin-left: 10%;
+        margin-right:10% ;
+        font-size: 2rem;
+        border-radius: 10px;
+        background-color: white;
+        border: 2px #2A265F solid;
+        color: #2A265F;
+        margin-bottom: 2rem;
+        padding: 1.5rem;
+
+        ::placeholder{
+            color: #2A265F;
+        }
+    }
+
+    button{
+        text-align: center;
+        background-color: #2A265F;
+        border: none;
+        padding: 1rem;
+        border-radius: 10px;
+        color: white;
+
+        transition: 0.5s ease;
+
+        &:hover{
+            cursor: pointer;
+            background-color: #383561;
+        }
+        margin-bottom: 4rem;
+        font-size: 3rem;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 3rem;
+
+    }
+    
+    border-radius: 20px;
+
+    background-color: white;
+    width: 50%;
+
+    @media (max-width:1000px) {
+        width: 75%;
+    }
+    min-width: 400px;
+    margin: 0 auto;
+    margin-top: 5%;
+
+
+    input{
+        display: block;
+
+    }
+}
+
+.heading{
+    
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: block;
+    padding: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    width: 100%;
+    background-color: #2A265F;
+    color: white;
+}
+
+.topic{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    font-size: 3rem;
+    color: #2A265F;
+    background-color: white;
+    text-align: center;
+    border: 2px #2A265F solid;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    
+}

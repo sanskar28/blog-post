@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+.container {
+  margin-bottom: 6rem;
+  width: 65%;
+}
+
+#comment_form {
+  position: fixed;
+  width: 100%;
+  padding-top: 2rem;
+  bottom: 0;
+  left: 0;
+  z-index: 200;
+  background-color: #2a265f9a;
+}
+
+textarea {
+  display: inline-block;
+  resize: none;
+  width: 70%;
+}
+
+.form-group {
+  display: inline;
+  float: left;
+  width: 50%;
+  margin-left: 20%;
+}
+
+.form-group2 {
+  display: inline;
+  float: left;
+  margin-left: 2rem;
+}
+
+.submitbtn {
+  float: right;
+  background-color: #242153;
+  color: #fff;
+  -webkit-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.submitbtn:hover {
+  color: white;
+}
+
+.backbtn {
+  font-size: 4rem;
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  color: #2A265F;
+}
+
+.backbtn:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.intro h1 {
+  color: #2A265F;
+  margin-bottom: 3rem;
+}
+
+.logoutbtn, .addbtn {
+  background-color: #2A265F;
+  border: 0;
+  border-radius: 5.0rem;
+  -webkit-box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 1.15rem;
+  padding: 0.6rem 1.4rem;
+  text-decoration: none;
+}
+
+.addbtn {
+  font-size: 3rem;
+  padding-top: 0rem;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.addbtn:hover {
+  background-color: #44416b;
+  color: white;
+}
+
+.logoutbtn {
+  font-size: 2rem;
+  position: fixed;
+  top: 2.5%;
+  right: 1.5%;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.logoutbtn:hover {
+  background-color: #44416b;
+  color: white;
+}
+
+body {
+  background-image: url(img/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Muli', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.course1 {
+  margin-top: 5rem !important;
+}
+
+.course {
+  background-color: #fff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  margin: 2rem auto;
+  overflow: hidden;
+  width: 70%;
+}
+
+@media (max-width: 1000px) {
+  .course {
+    width: 95%;
+  }
+}
+
+.course h6 {
+  opacity: 0.6;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.course h2 {
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.course-preview {
+  position: relative;
+  background-color: #2A265F;
+  padding-right: 1rem;
+  display: block;
+  height: 600px;
+  width: 25%;
+  text-align: center;
+  float: left;
+  color: #fff;
+  padding: 30px;
+  max-width: 250px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: inherit;
+}
+
+.deleteicn {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+}
+
+.course-preview a {
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  opacity: 0.6;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.course-info {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 30px;
+  padding-bottom: 0;
+  position: relative;
+  width: 70%;
+  float: left;
+}
+
+.course-info h2 {
+  margin-bottom: 25px;
+}
+
+.course-info span {
+  color: #2A265F;
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+.course-info .commenti {
+  text-align: right;
+}
+
+.course-info i {
+  color: #2A265F;
+  font-size: 2rem;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  padding-bottom: 10px;
+}
+
+.course-info i:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.like-container {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+.btn1 {
+  background-color: #2A265F;
+  border: 0;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 25px;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  letter-spacing: 1px;
+}
+
+/* SOCIAL PANEL CSS */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=topic.css.map */
