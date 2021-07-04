@@ -7,7 +7,16 @@ User can add new posts, see old posts, like-dislike them and each post also incl
 
 Here are some screenshots of website workflow:
 
+#### Authentication Page
+![GitHub Logo](/workflow/register.png)
+
+#### Home Page
 ![GitHub Logo](/workflow/home.png)
-![GitHub Logo](/workflow/home.png)
-![GitHub Logo](/workflow/home.png)
-![GitHub Logo](/workflow/home.png)
+
+#### Add Post Page
+![GitHub Logo](/workflow/add.png)
+
+#### Comment Page
+![GitHub Logo](/workflow/comment.png)
+
+
